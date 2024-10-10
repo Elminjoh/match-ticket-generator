@@ -1,0 +1,21 @@
+What worked:
+
+The code appears to be working OK, gathering user data to generate tickets for football games.
+Making Use of Classes
+
+It is appropriate for me to encapsulate the ticket creation functionality in a class (User_Ticket).
+Verification and Error Management:
+
+User inputs such as email addresses, phone numbers, and match selections are validated by the algorithm. Additionally, it manages exceptions well.
+
+Generate Ticket ID at Random: Using the user's initials plus a random integer to generate the ticket ID at random is an excellent way to establish unique identifiers.
+
+Managing Files: One useful method i used for storing user data is to read and write it to a JSON file called user_database.json.
+
+What Could be improved:
+
+Documentation: Although the code is commented, a more thorough documentation block at the file's beginning would be helpful. Explain the class's objective and how to use the code.
+
+Repeatable Code: The validation loops contain some duplication. To handle common input validation patterns and cut down on redundancy, think about developing helper functions.
+
+Magic Numbers: Steer clear of utilising magic numbers in your code directly. For example, constants or variables with appropriate names might be defined for the fixture values (one to five) and the my_range value (6).

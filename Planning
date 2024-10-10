@@ -1,0 +1,8 @@
+1. create a function that collects users details
+2. make a function that stores the user details
+3. Add functions to the code so it can add parameters to the user details.
+4. create a list of football matches the user can pick from.
+5. link the football match the user picked to the user details to show on the match ticket. 
+6. create a code that genarates random numbers and letters to create the ticket ID
+7. link the ticket ID to the match ticket so it can be disaplyed as well.
+8. create a code that links all the information about the user details, match and ticket ID to display as 1 Football match ticket.  
